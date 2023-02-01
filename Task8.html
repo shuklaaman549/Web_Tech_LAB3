@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Aman Shukla</title>
+<style>
+.menu {
+  display: flex;
+}
+.menu-item {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.sub-menu {
+  display: none;
+}
+
+</style>
+</head>
+<body>
+    <ul class="menu">
+        <li class="menu-item">
+          <a href="#">Item 1</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item"><a href="#">Subitem 1</a></li>
+            <li class="sub-menu-item"><a href="#">Subitem 2</a></li>
+            <li class="sub-menu-item"><a href="#">Subitem 3</a></li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="#">Item 2</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item"><a href="#">Subitem 1</a></li>
+            <li class="sub-menu-item"><a href="#">Subitem 2</a></li>
+            <li class="sub-menu-item"><a href="#">Subitem 3</a></li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="#">Item 3</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item"><a href="#">Subitem 1</a></li>
+            <li class="sub-menu-item"><a href="#">Subitem 2</a></li>
+            <li class="sub-menu-item"><a href="#">Subitem 3</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+</body>
+</html>
